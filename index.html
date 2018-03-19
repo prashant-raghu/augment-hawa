@@ -1,17 +1,17 @@
-<!doctype HTML>
-<html>
 <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
-<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"> </script>
-  <body style='margin : 0px; overflow: hidden;'>
-    <a-scene embedded arjs>
-  	<a-marker preset="hiro">
-             <a-assets>
-  <a-asset-item id="tree" src="microphone.gltf"></a-asset-item>
-</a-assets>
-<!-- use your gltf model -->
-<a-entity gltf-model="##tree"></a-entity>
-  	</a-marker>
-  	<a-entity camera></a-entity>
-    </a-scene>
-  </body>
-</html>
+<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+
+<body style='margin : 0px; overflow: hidden;'>
+  <a-scene embedded arjs='sourceType: webcam;'>
+      <a-marker preset='hiro'>
+        <!-- Adding an OBJ file to an AR Project-->
+        <a-entity
+            obj-model="obj: url(Washburn Guitar.obj)";
+            mtl: "url(Washburn Guitar.mtl)">
+        </a-entity>
+
+      </a-marker>
+  <a-entity camera>
+  </a-entity>
+  </a-scene>
+</body>
