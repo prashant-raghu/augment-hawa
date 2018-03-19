@@ -1,15 +1,17 @@
-<!-- AR.js by @jerome_etienne - github: https://github.com/jeromeetienne/ar.js - info: https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf -->
-<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/examples/vendor/aframe/build/aframe.min.js"></script>
-<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"></script>
-<body style='margin : 0px; overflow: hidden;'>
-	<a-scene embedded arjs='trackingMethod: best;'>
-      <a-anchor hit-testing-enabled='true'>
-        <a-assets>
-  <a-asset-item id="tree" src="microphone.gltf"></a-asset-item>
-        </a-assets>
+<!doctype HTML>
+<html>
+<script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"> </script>
+  <body style='margin : 0px; overflow: hidden;'>
+    <a-scene embedded arjs>
+  	<a-marker preset="hiro">
+             <a-assets>
+  <a-asset-item id="tree" src="/scene.gltf"></a-asset-item>
+</a-assets>
 <!-- use your gltf model -->
 <a-entity gltf-model="##tree"></a-entity>
-      </a-anchor>
-		<a-camera-static/>
-	</a-scene>
-</body>
+  	</a-marker>
+  	<a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
