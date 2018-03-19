@@ -5,7 +5,12 @@
 	<a-scene embedded arjs='trackingMethod: best;'>
       <a-anchor hit-testing-enabled='true'>
    		<!-- <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box> -->
-      <a-text value="Hello, World!"></a-text>
+        <!-- <a-text value="Hello, World!"></a-text> -->
+      <a-assets>
+  <a-asset-item id="tree" src="/scene.gltf"></a-asset-item>
+</a-assets>
+<!-- use your gltf model -->
+<a-entity gltf-model="##tree"></a-entity>
       </a-anchor>
 		<a-camera-static/>
 	</a-scene>
