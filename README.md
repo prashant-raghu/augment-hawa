@@ -3,13 +3,11 @@
 A web based solution(only need is a browser) which is making virtual tourism more Realistic by projecting image of tourist places with the help of Augmented Reality.
 People currently have different apps which suggest them different tourist places but still they get same experience across all apps i.e,a simple image.
 ![alt text](images/1.JPG)
-<p align="center">
-  <img src="./images/1.jpg" />
-  <img src="./images/2" />
-  <img src="./images/3" />
-  <img src="./images/4" />
-  <img src="./images/5" />
-</p>
+![alt text](images/2.JPG)
+![alt text](images/3.JPG)
+![alt text](images/4.JPG)
+![alt text](images/5.JPG)
+
 
 
 
