@@ -4,7 +4,7 @@ A web based solution(only need is a browser) which is making virtual tourism mor
 People currently have different apps which suggest them different tourist places but still they get same experience across all apps i.e,a simple image.
 
 <p align="center">
-  <img src="./images/1" />
+  <img src="./images/1.jpg" />
   <img src="./images/2" />
   <img src="./images/3" />
   <img src="./images/4" />
