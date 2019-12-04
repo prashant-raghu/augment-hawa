@@ -1,4 +1,7 @@
 # Augment hawa
+## Team Members
+[insaneNaman](https://github.com/insanenaman)
+[prashant-raghu](https://github.com/prashant-raghu)
 # AR Rajasthan  
 A web based solution(only need is a browser) which is making virtual tourism more Realistic by projecting image of tourist places with the help of Augmented Reality.
 People currently have different apps which suggest them different tourist places but still they get same experience across all apps i.e,a simple image.
